@@ -22,7 +22,7 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.organization=my-org
+          -Dsonar.organization=arpitinfra11
           -Dsonar.projectKey=ArpitInfra11_Java-SonarQube
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
